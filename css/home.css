@@ -1,0 +1,30 @@
+.image1{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/rocket_league_green.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: bignoodle;
+    src: url('../assets-imgs/font/bignoodletitling/big_noodle_titling.ttf');
+    font-weight: bold;
+}
+
+.big_noodle{
+    font-family: bignoodle;
+}
+
+
+.link{
+    color: white;
+}
+
+.link:hover {
+    border: solid 1px white;
+}
+
+.shift{
+    margin-right: 100px;
+}
