@@ -10,4 +10,6 @@ function run(interval, imgAmount){
     var swap = window.setInterval(func, interval);
 }
 
-run(2000, 5);
+run(3000, 5);
+
+

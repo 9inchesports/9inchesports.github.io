@@ -4,6 +4,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: background-image 2s ease-in-out;
 }
 
 #inch2{
@@ -12,6 +17,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: background-image 2s ease-in-out;
 }
 
 #inch3{
@@ -20,6 +30,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: background-image 2s ease-in-out;
 }
 
 #inch4{
@@ -28,5 +43,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: background-image 2s ease-in-out;
 }
 
