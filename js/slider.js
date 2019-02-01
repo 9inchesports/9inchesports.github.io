@@ -1,4 +1,4 @@
-function run(interval, imgAmount){
+/*function run(interval, imgAmount){
     let counter = 2;
     function func(){
         document.body.id = "inch" + counter;
@@ -8,8 +8,56 @@ function run(interval, imgAmount){
         }
     }
     var swap = window.setInterval(func, interval);
+run(3000, 5);
+}*/
+
+let counter = 0;
+function increment(){
+    counter++;
+    if (counter === 5){
+        counter = 0;
+    }
+    document.body.id = "inch" + counter;
+
+    if (counter === 0){
+        document.getElementById("text").innerHTML = "Our team";
+    }
+    if (counter === 1){
+        document.getElementById("text").innerHTML = "Morgan";
+    }
+    if (counter === 2){
+        document.getElementById("text").innerHTML = "Adam";
+    }
+    if (counter === 3){
+        document.getElementById("text").innerHTML = "Sharpie";
+    }
+    if (counter === 4){
+        document.getElementById("text").innerHTML = "David";
+    }
 }
 
-run(3000, 5);
+function decrement(){
+    counter--;
+    if (counter < 0){
+        counter = 4;
+    }
+    document.body.id = "inch" + counter;
+
+    if (counter === 0){
+        document.getElementById("text").innerHTML = "Our team";
+    }
+    if (counter === 1){
+        document.getElementById("text").innerHTML = "Morgan";
+    }
+    if (counter === 2){
+        document.getElementById("text").innerHTML = "Adam";
+    }
+    if (counter === 3){
+        document.getElementById("text").innerHTML = "Sharpie";
+    }
+    if (counter === 4){
+        document.getElementById("text").innerHTML = "David";
+    }
+}
 
 
