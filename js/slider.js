@@ -23,16 +23,16 @@ function increment(){
         document.getElementById("text").innerHTML = "Our team";
     }
     if (counter === 1){
-        document.getElementById("text").innerHTML = "Morgan";
+        document.getElementById("text").innerHTML = "9inch-Morgan";
     }
     if (counter === 2){
-        document.getElementById("text").innerHTML = "Adam";
+        document.getElementById("text").innerHTML = "9inch-Adam";
     }
     if (counter === 3){
-        document.getElementById("text").innerHTML = "Sharpie";
+        document.getElementById("text").innerHTML = "9inch-Sharpie";
     }
     if (counter === 4){
-        document.getElementById("text").innerHTML = "David";
+        document.getElementById("text").innerHTML = "9inch-David";
     }
 }
 
@@ -47,16 +47,16 @@ function decrement(){
         document.getElementById("text").innerHTML = "Our team";
     }
     if (counter === 1){
-        document.getElementById("text").innerHTML = "Morgan";
+        document.getElementById("text").innerHTML = "9inch-Morgan";
     }
     if (counter === 2){
-        document.getElementById("text").innerHTML = "Adam";
+        document.getElementById("text").innerHTML = "9inch-Adam";
     }
     if (counter === 3){
-        document.getElementById("text").innerHTML = "Sharpie";
+        document.getElementById("text").innerHTML = "9inch-Sharpie";
     }
     if (counter === 4){
-        document.getElementById("text").innerHTML = "David";
+        document.getElementById("text").innerHTML = "9inch-David";
     }
 }
 
