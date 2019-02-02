@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/team.css" crossorigin="anonymous">
         <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap-grid.css" crossorigin="anonymous">
         <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap-reboot.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -18,9 +19,16 @@
         <link rel="preload" href="assets-imgs/banner/sharpie.jpg" as="image">
         <link rel="preload" href="assets-imgs/banner/adam.jpg" as="image">
         <div class="btns">
-            <button onclick="decrement()">&laquo;</button>
-            <button onclick="increment()" style="float: right">&raquo;</button>
+            <button onclick="decrement()" class="w3-button w3-aqua w3-display-left">&#10094;</button>
+            <button onclick="increment()" class="w3-button w3-aqua w3-display-right">&#10095;</button>
         </div>
+        <ol class="carousel-indicators">
+            <li class="" id="icon0" onclick="img0()"></li>
+            <li class="" id="icon1" onclick="img1()"></li>
+            <li class="" id="icon2" onclick="img2()"></li>
+            <li class="" id="icon3" onclick="img3()"></li>
+            <li class="" id="icon4" onclick="img4()"></li>
+        </ol>
         <script src="js/slider.js"></script>
     </body>
 </html>
