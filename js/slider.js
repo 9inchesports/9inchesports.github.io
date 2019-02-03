@@ -46,7 +46,7 @@ function increment(){
         previous.classList.remove("active");
     }
     if (counter === 3){
-        document.getElementById("text").innerHTML = "9inch-Sharpie";
+        document.getElementById("text").innerHTML = "9inch-Michael";
         let icon = document.getElementById("icon3");
         icon.classList.add("active");
         let previous = document.getElementById("icon2");
@@ -94,7 +94,7 @@ function decrement(){
         previous.classList.remove("active");
     }
     if (counter === 3){
-        document.getElementById("text").innerHTML = "9inch-Sharpie";
+        document.getElementById("text").innerHTML = "9inch-Michael";
         let icon = document.getElementById("icon3");
         icon.classList.add("active");
         let previous = document.getElementById("icon4");
@@ -150,7 +150,7 @@ function img2() {
 
 function img3() {
     document.body.id = "inch3"
-    document.getElementById("text").innerHTML = "9inch-Sharpie";
+    document.getElementById("text").innerHTML = "9inch-Michael";
     counter = 3;
     for (let i =0;i < 5;i++){
         let r = document.getElementById("icon"+i);
