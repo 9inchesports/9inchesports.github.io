@@ -1,0 +1,65 @@
+#inch1{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/Rhys.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*-webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: background-image 2s ease-in-out;*/
+}
+
+#inch2{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/Michael.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#inch3{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/Josh.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#inch4{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/Callum.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#inch5{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/Morgan.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#inch0{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../assets-imgs/banner/r6s/.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: bignoodle;
+    src: url('../assets-imgs/font/bignoodletitling/big_noodle_titling.ttf');
+    font-weight: bold;
+}
+
+.big_noodle{
+    font-family: bignoodle;
+}
