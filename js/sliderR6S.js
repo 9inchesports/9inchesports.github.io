@@ -183,3 +183,7 @@ function img5() {
     let icon = document.getElementById("icon5");
     icon.classList.add("active");
 }
+
+windows.addEventListener("scroll", () =>{
+    console.log("hi");
+})
